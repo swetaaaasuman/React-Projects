@@ -2,6 +2,7 @@ import AddTodo from "./components/AddTodo";
 import AppName from "./components/AppName";
 import "./App.css";
 import TodoItems from "./components/TodoItems";
+import { useState } from "react";
 
 function App() {
   const todoItems = [
@@ -18,6 +19,7 @@ function App() {
       dueDate: "Right Now",
     },
   ];
+
   return (
     <center className="todo-container">
       <AppName />
